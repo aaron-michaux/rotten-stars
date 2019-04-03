@@ -17,7 +17,7 @@ Should give output like
 n-reviews:         1018
 n-pages:           51
 review average:    1.258,  i.e.,  25.2, which is  16.9%, (scaled to range [0-100]%)
-non-1star average: 1.909,  i.e.,  38.2, which is  31.3%, (scaled to range [0-100]%)
+non-1star average: 1.909,  i.e.,  38.2, which is  22.7%, (scaled to range [0-100]%)
 Histogram
    0.5 stars: 470
    1.0 stars: 217
