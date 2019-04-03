@@ -3,6 +3,8 @@ Scapes audience reviews from Rotten Tomatoes, so that you can check their math.
 
 # Example
 
+Find the URL of the movie you're interested in. For example, [The Last Jedi](https://www.rottentomatoes.com/m/star_wars_the_last_jedi)'s URL is: `https://www.rottentomatoes.com/m/star_wars_the_last_jedi`. Note the text past the last `/`. That's the "identified" that Rotten Tomatoes is using for their reviews.
+
 ```
  > rotten-stars.py star_wars_the_last_jedi
 ```
