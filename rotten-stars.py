@@ -132,7 +132,7 @@ Example:
     print("review average:    {0:5.3f},  i.e., {1:5.1f}, which is {2:5.1f}%, (scaled to range [0-100]%)"
           .format(av_all, av_all * 20, 100*(av_all-0.5)/4.5))
     print("non-1star average: {0:5.3f},  i.e., {1:5.1f}, which is {2:5.1f}%, (scaled to range [0-100]%)"
-          .format(av_sans, av_sans*20, 100*(av_sans-0.5)/4.5))
+          .format(av_sans, av_sans*20, 100*(av_sans-1.0)/4.0))
     print("Histogram")
     for i in range(0, 10):
         print("   {:3.1f} stars: {}".format((i+1)*0.5, histogram[i]))
